@@ -2,9 +2,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Created by ewansheldon on 06/12/2016.
- */
 class FizzbuzzTest {
 
     Fizzbuzz fizzbuzz = new Fizzbuzz();
