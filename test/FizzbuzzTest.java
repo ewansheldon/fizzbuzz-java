@@ -15,4 +15,7 @@ class FizzbuzzTest {
     void returnBuzzWhenDivisibleBy5() {
         assertEquals("buzz", fizzbuzz.play(5));
     }
+
+    @Test
+    void returnFizzbuzzWhenDivisibleBy3And5() { assertEquals("fizzbuzz", fizzbuzz.play(15)); }
 }
